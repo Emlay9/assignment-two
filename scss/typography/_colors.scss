@@ -6,17 +6,27 @@
 
 /*** Variables ***/
 $darblue: #011627;
-$brightred: #FF0022;
+$brightred: #F71735;
 $sunsetorange: #FF5A5F;
-$teal: #41ead4;
+$teal: rgb(58, 202, 183);
 $offwhite: #FDFFFC;
 $redviolet: #B91372;
+$grey: #a6aeb4;
+$yellow: #FFD668;
 
 /*** Styles ***/
 .site-nav {
-    color: $offwhite;
+    color: $grey;
+}
+
+.icon-view .container {
+    color: $grey;
 }
 
 .main-header {
     color: $offwhite;
+}
+
+.job-title {
+    color: grey;
 }

@@ -1,10 +1,12 @@
 /*** Variables ***/
 $darblue: #011627;
-$brightred: #FF0022;
+$brightred: #F71735;
 $sunsetorange: #FF5A5F;
-$teal: #41ead4;
+$teal: rgb(58, 202, 183);
 $offwhite: #FDFFFC;
 $redviolet: #B91372;
+$grey: #a6aeb4;
+$yellow: #FFD668;
 
 
 /*** Styles ***/
@@ -17,6 +19,23 @@ $redviolet: #B91372;
     
     a {
         color: $offwhite;
+        display: inline-block;
+    }
+
+    .cta {
+        padding: 8px 32px;
+        border-radius: 6px;
+    }
+
+    .cta-1 {
+        background: $teal;
+        color: white;
+        margin-bottom: 10px;
+    }
+
+    .cta-2 {
+        background: $yellow;
+        margin-bottom: 20px;
     }
 
     .gulp-logo {
@@ -35,8 +54,8 @@ $redviolet: #B91372;
 
     .emily-avatar {
         width: 100px;
-        padding-bottom: 10px;
-        border-bottom: 3px solid $redviolet;
+        padding-bottom: 16px;
+        border-bottom: 3px solid $sunsetorange;
         margin-bottom: 10px;
     }
 
