@@ -1,7 +1,46 @@
 /*** Variables ***/
+$darblue: #011627;
+$brightred: #FF0022;
+$sunsetorange: #FF5A5F;
+$teal: #41ead4;
+$offwhite: #FDFFFC;
+$redviolet: #B91372;
+
 
 /*** Styles ***/
-
 .bkg-dark {
-    background: #011627;
+        background: #011627;
+    }
+
+.main-header
+{
+    
+    a {
+        color: $offwhite;
+    }
+
+    .gulp-logo {
+        width: 24px;
+    }
+
+    .header-items {
+        width: 480px;
+        margin: 0 auto;
+        
+        li {
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+
+    .emily-avatar {
+        width: 100px;
+        padding-bottom: 10px;
+        border-bottom: 3px solid $redviolet;
+        margin-bottom: 10px;
+    }
+
+    .container {
+        margin-top: 20px;
+    }
 }

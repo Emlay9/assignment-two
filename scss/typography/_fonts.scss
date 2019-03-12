@@ -9,5 +9,30 @@
 */
 
 /*** Variables ***/
+$h1: 7.594em;
+$h2: 5.063em;
+$h3: 3.375em;
+$h4: 2.25em;
+$h5: 1.5em;
 
+$s1: 0.875rem;
+$s2: 0.75rem;
+$s3: 0.5625rem;
+
+$raleway:'Raleway', sans-serif;
+$title-font: 'Major Mono Display', monospace;
 /*** Styles ***/
+
+body {
+    font-family: $raleway;
+}
+
+.header-title {
+    font-size: $h3;
+    font-family: $title-font;
+}
+
+.job-title {
+    font-size: $s1;
+    font-weight: 400;
+}

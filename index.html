@@ -7,6 +7,7 @@
     <title>CHANGE TITLE</title>
 
     <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Raleway" rel="stylesheet">
   </head>
 
   <body>
@@ -27,8 +28,22 @@
           <li>nav-element</li>
         </ul>
       </nav>
-      <header class="">
-  
+      <header class="main-header">
+        <ul class="header-items">
+          <li><img class="emily-avatar" src="img/temp-avatar.JPG" alt="photo of Emily"></li>
+          <li><h1 class="header-title">emily tHomas</h1></li>
+          <li><h2 class="job-title">Software Developer</h2></li>
+          <div class="container flx">
+            <li><a class="cta-1" href="#">Call to action 1</a></li>
+            <li><a class="cta-2" href="#">Call to action 2</a></li>
+          </div>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="52" viewBox="0 0 24 52">
+              <image id="gulp_logo" data-name="gulp logo" width="24" height="52" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAA0CAYAAACQGfi1AAAI20lEQVRYhbVY228bWRk/c+bMOBN7fIkvST2mcS5skqZJSBa1oEasWPaCqFp296FoRZfuQ5EWiRfEE0LiHwCBhICyWrRUqkTR8oKWhy50W2XTCqrdGFKaNm3cpL6kudiO48t4ZjwzZw763LhKmsDWtPtJI9vnO/P9znf/jrmrV6+izs5O5PF4EM/zaG1tDRFCGt9FUUSVSgWFw+HG2vz8PDIMA2GMERB8VqtVxHFcY7/L5UKSJKF6vd47MjJyZmNjY4agp0yO43xucHDwD+Fw+LAgCOGnBsAYQ5TS6MDAwLlIJHI4n8//O5fLvYGfovDQ0NAQCH+uUqnczWaz30EI3XxiDUA4Yyx06NChc4qiPF+tVpOVSuUEIeS6IAioJQAQBgRO3SbcNzo6+q6iKF/XNO3ehQsXXldVdba577EBQBhEia7rTcHwuMbHx38Zj8ePVavVlStXrpxcW1tLUEobfMdxWgPw+/2NMAaybRsFAoGDsVjsW4yx+tTU1JupVOrvENoQurFYDLnd7tZMBCrH43G0urrayBFZlr9ICHFVKpXrmqZdBIGwPjk52dC2UCi0BgAEQgAEThkKhZ6FtdXV1Ut9fX2NJNu3bx9EVINvWRbaFabb7LvnA6bxer3wKQQCga/AO5ubmx+hrcwGuzd9AETgByw6juPieV4WBEEmhPh5nu8QBEESRbGNENKGMSaiKBJ4keM4q7+/X/H7/QOO49iBQCBKCPkCpVRFCJUdx6k5jqOBbG5ubu54OBz+qiiKg5IkDfE8H+R53s01Y7EFAqGWZZV0Xb9jWdbNXC53lbS3t7/o8/leEUVReVyhjuMwXdfvgibgFkmSuuFVjHG7y+WCJ2qa5pBlWX7C83x+c3PzfVALYwymsHmeFzDGEsdxEmNMdLlcIgRRoVDgwETBYNBhjG3qul5FCAn1el2E09u2bTPGBJ7nTcdxwPyUuFyu3s7OzlNwMkpp2TTNZUppwXGcKoAyxnTTNFUGX3TdgX2maWJCCC8IQgcAEEIkjLGMMQ4KghAjhPjgQOVy+SKp1+uZpuo8z/skSfL9N9MEAoGWfKJpWgabpplr1ZmPS5Zl5TE467MCoJSuYU3T1h3HqX8WAKqq3sU8z4P3K9sZ4FDTNNMIodr/K9xxHAvMj2OxGCRHscmoVqv3stnsyVQq9WIikTiaz+f/9SmnnDcMY5cfLcsq+/3+KpioZlnWBixCq5udnX1Z1/VyLBb7fblcjszOzv6QMWbvJVzX9ZVLly69AtPDHgAVWZYNUigUSpIkZaHWT09Pn5Ykad/+/fvPS5IkT05OHiiXy/+EmN4LYGlp6c+GYYihUOjwozxKaV7TNBUzxhxCiDE/P39+eXl5dmxs7AwIh01Q+MLh8Nc4juP3sLG9uLj43tDQ0CmXyxV8lG8YRrZYLJZwvV5HGxsbtxYWFn42Njb2eigUOgAbVlZWPkgkEqehW9m2XTBNcxXWa7VaGmKgUCh8wvP8el9f38mmUNu2i4ZhXAcFGGNFSqmNLcviksnkOU3T0gcPHvxec3M2m/2jZVlQKvCHH354DJoKOO7atWuvQcVcXFw86/V6j7jd7q5UKvXOzMzMiVu3bn13enr6hUwm8w5jjJqmiTDUJ0mSVuPx+LDH4xkF4TA0LS0tXYjFYqfgU9M0PRqNvnb79u23ZVnug6azurr60eDgIByIJhKJM8lk8uNoNHpa07ReQRCGDcNYboyZ0P56enqQoii9UHJrtdrdy5cvnxBFMaAoyssrKytnR0ZGvq+q6uq9e/fe7u/v/0kqlfpTe3v7QDAYPHDnzp0f5HK520eOHHlvbm7uWkdHxzegviWTyd80xpZ0Ot3oaG63+2NRFH+aSqU+EEVRjUajRymldUmSZmRZ7kokEudN0yyWSqW/ra+v/7y3t3c8mUx+e2Zm5v3x8fEfM8YWy+Xy77q7u49mMpmrHo9HMU2z1OzJbX6/3yyXy3/p6en5kc/nm4hEIl9mjHGKorxQq9XmhoeH3xodHX2zWCxOxePxb3q9Xg0h9HlBEPr7+/tf9Xq9/OjoaAyq8cTExG/9fn8IJnYSCoUgZqVYLHZWluVnHcfZJIRkOzs7nxdF0R2JRM6AnQkh7V1dXcc5jhPA8ZRSEzRRFGWgo6NjhOO4UVmWX4J+XqvVUtVqdR5GR3AyhJcKAraauzA2NvYrSZJioBrMPcBDD+YiFwwPYFuoX+l0+kwkEnkVY8xzHAdNyL+VxQXDMKA3I9JAwdiybXt9S2DI5/OF9src7VSpVP7R1dWlRKPR44/yGGMFaJswxhAIJRgvbNve+DSh2ykYDD7n8/kOu1yujkd5pmnmIQfgVgRTRXNY2mwFgOd5Lzx78er1egoc3NAgEok0FimlC1tDVSs4u2jrMrII9z4gAvMjeuDA/JMKbxKUcbBKAyCXe9ArMMYZRVF0mIeeRLht25uqqi4/BFhaWmoOqp8ghN6KxWJfEgThGY/HM0QICUPc/y+B0M8ty8ppmnaTUnp3ZWVlKpPJLDT5pFQqNZEtSun17u7uNyzLyuRyuSnHcQzIA47jRHh0XRfAjJIkQVibUMoh4RBC7W1tbb2EkGcWFxd/Xa1WITEfAECYbp0EFYvFm2tra8nh4eFG2YZhzrbtEkx5lFLN7XaDMI7neRfMoRhjDyEkAAkIVrhx48Yv8vn8wtaBG3K5qamph+pCWMmyPDY4OHixra0t3IrtoRCm0+mXNE1LNO8GDQ26uroe/gCGaZr3HceBKaMlAEppCTJYluUd6wQybjttDWFWK8LRgzCvM8bAlDsBarWdsxWlVLcsS20VAJyuqqoBf4rsAIBS8QgAeKfaKgDG2PD5fGbzn5iHAM2EaNLWfa1lDSzLMkqlkr1Lg2KxuGMBbKgoSrlVAMaY2vyfaQfAxMTErs08zxutAsCwq6rqbgC4je9Bc263m2GMH6v6QXiXSqX5ZoneAXD//v293nm3Xq8vhsPhY+3t7UOCIHQJguCFu/LWaR3btqtQg+DKWi6XYdL4KwBsTzKEEPoPH9QXCyK/jPIAAAAASUVORK5CYII="/>
+            </svg>
+          </li>
+          <li><p>powered by netlify</p></li>
+        </ul>
       </header>
    </div>
     <main class="">

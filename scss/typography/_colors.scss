@@ -5,8 +5,18 @@
 */
 
 /*** Variables ***/
+$darblue: #011627;
+$brightred: #FF0022;
+$sunsetorange: #FF5A5F;
+$teal: #41ead4;
+$offwhite: #FDFFFC;
+$redviolet: #B91372;
 
 /*** Styles ***/
 .site-nav {
-    color: #b8b8bd;
+    color: $offwhite;
+}
+
+.main-header {
+    color: $offwhite;
 }

@@ -5,5 +5,17 @@
 @import "main-sections/index";
 @import "footer/index";
 
+body {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
 
 //Utility Classes
+
+@media(min-width:600px)
+{
+    .flx {
+    display: flex;
+    }
+}

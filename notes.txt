@@ -1,0 +1,13 @@
+- large view size max width 1200px
+- use type-scale.com for headers and shtuff
+
+s1 14px
+s2 12px
+s3 9px
+
+bright red #FF0022
+sunset orange: #FF5A5F
+teal: #41ead4;
+pupley: #B91372
+offwhite: #FDFFFC
+dark-blue: #011627;
