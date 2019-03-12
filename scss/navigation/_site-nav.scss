@@ -1,14 +1,16 @@
+@mixin pxToRem {
+    
+}
+
 /*** Variables ***/
 
-
+$const: 0.00625px;
 
 /*** Styles ***/
 
 .site-nav {
-    background: grey;
-    box-shadow: 0 0 7px 0 grey;
-    border-bottom: 1px solid grey;
     padding: 0.5rem 1rem;
+    background: #011627;
 }
 
 .list-view {
@@ -18,9 +20,17 @@
 .icon-view {
     display: flex;
     justify-content: space-between;
+
+    .fa-bars {
+        width: 2.1875rem;
+    }
+
+    .container {
+        text-align: center;
+    }
 }
 
-@media(min-width:600px)
+@media(min-width:480px)
 {
     .list-view{
         display: flex;
