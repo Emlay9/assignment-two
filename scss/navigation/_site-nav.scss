@@ -1,16 +1,18 @@
-@mixin pxToRem {
-    
-}
 
 /*** Variables ***/
-
-$const: 0.00625px;
+$dark: #100e17;
+$brightred: #F71735;
+$sunsetorange: #FF5A5F;
+$teal: rgb(58, 202, 183);
+$offwhite: #FDFFFC;
+$redviolet: #B91372;
+$grey: #a6aeb4;
 
 /*** Styles ***/
 
 .site-nav {
     padding: 0.5rem 1rem;
-    background: #011627;
+    background: $dark;
 }
 
 .list-view {

@@ -1,17 +1,19 @@
 /*** Variables ***/
-$darblue: #011627;
+$dark: #100e17;
 $brightred: #F71735;
+$redish: #E84855;
 $sunsetorange: #FF5A5F;
 $teal: rgb(58, 202, 183);
 $offwhite: #FDFFFC;
 $redviolet: #B91372;
+$purple: #5E35B1;
 $grey: #a6aeb4;
-$yellow: #FFD668;
+$yellow: #FDD835;
 
 
 /*** Styles ***/
 .bkg-dark {
-        background: #011627;
+        background: $dark;
     }
 
 .main-header
@@ -23,12 +25,13 @@ $yellow: #FFD668;
     }
 
     .cta {
-        padding: 8px 32px;
+        padding: 8px 12px;
         border-radius: 6px;
+        width: 150px;
     }
 
     .cta-1 {
-        background: $teal;
+        background: $purple;
         color: white;
         margin-bottom: 10px;
     }
@@ -53,10 +56,10 @@ $yellow: #FFD668;
     }
 
     .emily-avatar {
-        width: 100px;
+        width: 90px;
         padding-bottom: 16px;
-        border-bottom: 3px solid $sunsetorange;
-        margin-bottom: 10px;
+        border-bottom: 3px solid $purple;
+        margin: 10px 0;
     }
 
     .container {
