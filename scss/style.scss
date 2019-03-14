@@ -5,17 +5,51 @@
 @import "main-sections/index";
 @import "footer/index";
 
+// $dark: #100e17;
+// $brightred: #F71735;
+// $redish: #E84855;
+// $sunsetorange: #FF5A5F;
+// $teal: rgb(58, 202, 183);
+// $offwhite: #FDFFFC;
+// $redviolet: #B91372;
+// $purple: #5E35B1;
+// $grey: #a6aeb4;
+// $yellow: #FDD835;
+
+
 body {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
+    width: 100%;
 }
 
 //Utility Classes
+.section-title {
+    font-size: $h4;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 3px solid $purple; 
+    display: inline-block;
+    text-align: center;
+ }
+
+ .center-align-container {
+     text-align: center;
+ }
+
+ .light {
+     color: $offwhite;
+ }
+
+
 
 @media(min-width:600px)
 {
-    .flx {
+    .flx-center {
     display: flex;
+    justify-content: center;
     }
 }
+
+
+ 

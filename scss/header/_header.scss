@@ -34,6 +34,7 @@ $yellow: #FDD835;
         background: $purple;
         color: white;
         margin-bottom: 10px;
+        
     }
 
     .cta-2 {
@@ -46,11 +47,8 @@ $yellow: #FDD835;
     }
 
     .header-items {
-        width: 480px;
-        margin: 0 auto;
         
         li {
-            margin: 0 auto;
             text-align: center;
         }
     }
@@ -64,5 +62,11 @@ $yellow: #FDD835;
 
     .container {
         margin-top: 20px;
+    }
+}
+
+@media (min-width: 600px) {
+    .contact {
+        margin-right: 5%;
     }
 }
