@@ -1,0 +1,24 @@
+//vars
+$purple: #5E35B1;
+$darkgrey: #424949;
+form {
+    .contact-button {
+        background: #5E35B1;
+        border: none;
+        border-radius: 4px;
+    }
+
+    .small-label {
+        margin-left: 6%;
+    }
+
+    .contact-input {
+        width: 90%;
+        border-radius: 4px;
+        box-shadow: none;
+        border: 1px solid grey;
+        padding: 4px 5px;
+        margin-bottom: 10px;
+    }
+}
+

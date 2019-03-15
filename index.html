@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>CHANGE TITLE</title>
+    <title>Portfolio</title>
 
     <link rel="stylesheet" href="css/style.css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
@@ -34,7 +34,7 @@
           <li><img class="emily-avatar" src="img/temp-avatar.gif" alt="photo of Emily"></li>
           <li><h1 class="header-title">emily tHomas</h1></li>
           <li><h2 class="job-title">Software Developer</h2></li>
-          <div class="container flx-center">
+          <div class="container cta-flx-center">
             <li class="contact"><a class="cta cta-1" href="#">Contact me</a></li>
             <li><a class="cta cta-2" href="#">Github</a></li>
           </div>
@@ -49,32 +49,48 @@
    </div>
   <main class="main-sections">
     <section class="skills-section">
-        <div class="center-align-container"><h2 class="section-title">Skills Summary</h2></div>
+        <div class="center-align-txt">
+          <h2 class="section-title center-align-txt">Skills Summary</h2>
+          <div class="line center-align-blk"></div>
+        </div>
         <img class="percent" src="img/95-percent.png" alt="95 precent">
         <img class="percent" src="img/90-percent.png" alt="95 precent">
         <img class="percent" src="img/85-percent.png" alt="95 precent">
         <img class="percent" src="img/75-percent.png" alt="95 precent">
     </section>
     <section class="find-me-section bkg-dark">
-      <div class="center-align-container"><h2 class="section-title light">Where to Find Me</h2></div>
+      <div class="center-align-txt">
+        <h2 class="section-title light find-me">Where to Find Me</h2>
+        <div class="line center-align-blk"></div>
+        <p class="light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec eleifend metus. Sed sed diam eu ex dictum tincidunt at quis augue. Ut tristique augue nisl, quis viverra diam euismod a. Donec imperdiet ut ligula posuere tincidunt. Cras mi orci, accumsan eu condimentum ut, malesuada placerat lacus. Pellentesque tellus tortor.</p>
+      </div>
     </section>
     <section class="work-experience-section">
-        <div class="center-align-container"><h2 class="section-title">Work Experience</h2></div>
+        <div class="center-align-txt"><h2 class="section-title">Work Experience</h2></div>
+        <div class="line center-align-blk"></div>
     </section>
     <section class="education-section bkg-dark">
-        <div class="center-align-container"><h2 class="section-title light">Education</h2></div>
+        <div class="center-align-txt"><h2 class="section-title light">Education</h2></div>
+        <div class="line center-align-blk"></div>
     </section>
   </main>
     <footer class="main-footer">
-        <div class="center-align-container"><h2 class="section-title">Get In Touch</h2></div>
+        <div class="center-align-txt"><h2 class="section-title">Get In Touch</h2></div>
+        <div class="line center-align-blk"></div>
         <form action="">
-          <label for="Name">Name*</label>
-          <input type="text" id="Name">
-          <label for="Email">Email*</label>
-          <input type="email" id="Email">
-          <label for="Message">Message*</label>
-          <textarea id="Message"></textarea>
-          <button type="submit">get in touch</button>
+         <div class="flex-column">
+            <label class="small-label fnt-sm-1" for="Name">Name*</label>
+            <input class="contact-input center-align-blk" type="text" id="Name">
+         </div>
+          <div class="flex-column">
+            <label class="small-label fnt-sm-1" for="Email">Email*</label>
+            <input class="contact-input center-align-blk" type="email" id="Email">
+          </div>
+          <div class="flex-column">
+            <label class="small-label fnt-sm-1" for="Message">Message*</label>
+            <textarea class="contact-input center-align-blk" id="Message"></textarea>
+          </div>
+          <div class="flex-center"><button class="contact-button light center-align-txt" type="submit">get in touch</button></div>
         </form>
         <ul>
           <li>Copyright: Emily Thomas @2019, All rights reserved</li>
