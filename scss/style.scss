@@ -67,7 +67,8 @@ body {
 @media(min-width:480px)
 {
     .cta-flx-center {
-    
+        display: flex;
+        justify-content: center;
     }
 }
 
