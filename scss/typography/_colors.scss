@@ -5,14 +5,12 @@
 */
 
 /*** Variables ***/
-$darblue: #011627;
-$brightred: #F71735;
-$sunsetorange: #FF5A5F;
-$teal: rgb(58, 202, 183);
+$dark: #100e17;
 $offwhite: #FDFFFC;
-$redviolet: #B91372;
+$purple: #5E35B1;
 $grey: #a6aeb4;
-$yellow: #FFD668;
+$yellow: #FDD835;
+
 
 /*** Styles ***/
 .site-nav {
@@ -33,4 +31,14 @@ $yellow: #FFD668;
 
 .small-label {
     color: grey;
+}
+
+.fa-github {
+    color: $grey;
+    width: 65px;
+}
+
+.fa-github:hover {
+    color: $purple;
+    // width: 70px;
 }

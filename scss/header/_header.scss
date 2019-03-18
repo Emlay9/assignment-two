@@ -1,11 +1,6 @@
 /*** Variables ***/
 $dark: #100e17;
-$brightred: #F71735;
-$redish: #E84855;
-$sunsetorange: #FF5A5F;
-$teal: rgb(58, 202, 183);
 $offwhite: #FDFFFC;
-$redviolet: #B91372;
 $purple: #5E35B1;
 $grey: #a6aeb4;
 $yellow: #FDD835;
@@ -18,6 +13,8 @@ $yellow: #FDD835;
 
 .main-header
 {
+
+    padding-bottom: 0.5rem;
     
     a {
         color: $offwhite;
@@ -25,9 +22,9 @@ $yellow: #FDD835;
     }
 
     .cta {
-        padding: 8px 12px;
+        padding: 8px 15px;
         border-radius: 6px;
-        width: 150px;
+        width: 170px;
     }
 
     .cta-1 {
