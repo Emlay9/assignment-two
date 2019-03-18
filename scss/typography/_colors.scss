@@ -17,6 +17,22 @@ $yellow: #FDD835;
     color: $grey;
 }
 
+.light {
+    color: $offwhite;
+}
+
+.bg-grey {
+    background-color: $grey;
+}
+
+.bg-yellow {
+    background-color: $yellow;
+}
+
+.hover-purple:hover {
+    color: $purple;
+}
+
 .site-nav {
     color: $grey;
 }
@@ -37,10 +53,6 @@ $yellow: #FDD835;
     color: grey;
 }
 
-.fa-github, .fa-linkedin-in {
-    color: $grey;
-    width: 65px;
-}
 
 .fa-linkedin-in:hover, .fa-github:hover {
     color: $purple;

@@ -2,8 +2,10 @@
 $dark: #100e17;
 $offwhite: #FDFFFC;
 $purple: #5E35B1;
+$dark-purple: #341D61;
 $grey: #a6aeb4;
 $yellow: #FDD835;
+$dark-yellow: #8B761D;
 
 
 /*** Styles ***/
@@ -24,7 +26,7 @@ $yellow: #FDD835;
     .cta {
         padding: 8px 15px;
         border-radius: 6px;
-        width: 170px;
+        width: 190px;
     }
 
     .cta-1 {
@@ -34,9 +36,19 @@ $yellow: #FDD835;
         
     }
 
+    .cta-1:hover {
+        background-color:$dark-purple;
+        color: $grey;
+    }
+
     .cta-2 {
         background: $yellow;
         margin-bottom: 20px;
+    }
+
+    .cta-2:hover {
+        background-color: $dark-yellow;
+        color: $grey;
     }
 
     .gulp-logo {
