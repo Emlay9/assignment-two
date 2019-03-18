@@ -13,6 +13,10 @@ $yellow: #FDD835;
 
 
 /*** Styles ***/
+.grey {
+    color: $grey;
+}
+
 .site-nav {
     color: $grey;
 }
@@ -33,12 +37,12 @@ $yellow: #FDD835;
     color: grey;
 }
 
-.fa-github {
+.fa-github, .fa-linkedin-in {
     color: $grey;
     width: 65px;
 }
 
-.fa-github:hover {
+.fa-linkedin-in:hover, .fa-github:hover {
     color: $purple;
     // width: 70px;
 }

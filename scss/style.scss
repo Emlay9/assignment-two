@@ -25,6 +25,17 @@ body {
 }
 
 //Utility Classes
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-space-around {
+    display: flex;
+    justify-content: space-around;
+}
+
 .flex-column {
     display: flex;
     flex-direction: column;
@@ -59,10 +70,7 @@ body {
      color: $offwhite;
  }
 
-.flex-center {
-    display: flex;
-    justify-content: center;
-}
+
 
 @media(min-width:480px)
 {

@@ -1,24 +1,44 @@
 //vars
 $purple: #5E35B1;
 $darkgrey: #424949;
+$yellow: #FDD835;
+
+//styles
 form {
-    .contact-button {
-        background: #5E35B1;
-        border: none;
-        border-radius: 4px;
-    }
-
     .small-label {
-        margin-left: 6%;
+        margin-left: 7%;
+        margin-bottom: 0.4rem;
     }
 
+    .name, .email {
+        height: 3.375rem;
+    }
+
+    .message {
+        height: 8.125rem;
+    }
+    
     .contact-input {
         width: 90%;
-        border-radius: 4px;
+        border-radius: 12px;
         box-shadow: none;
-        border: 1px solid grey;
+        border: 1px solid $darkgrey;
         padding: 4px 5px;
-        margin-bottom: 10px;
+        margin-bottom: 1rem;
+    }
+    
+    .contact-button {
+        background: $purple;
+        border: none;
+        border-radius: 4px;
+        width: 200px;
+        padding: 0.5rem 0;
+        margin-bottom: 3rem;
+        margin-top: 1.3rem;
+    }
+
+    .contact-button:hover {
+        background: $yellow;
     }
 }
 
