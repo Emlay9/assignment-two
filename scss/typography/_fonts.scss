@@ -27,6 +27,10 @@ body {
     font-family: $raleway;
 }
 
+.section-title {
+    font-size: $h4;
+}
+
 .header-title {
     font-size: 2.5rem;
     font-stretch: 50%;
@@ -60,4 +64,24 @@ body {
 
 .bold {
     font-weight: bold;
+}
+
+@media(min-width:480px) {
+
+    .header-title {
+        font-size: $h3;
+    }
+    
+}
+
+@media(min-width:780px) {
+
+    .header-title {
+        font-size: $h2;
+    }
+
+    .section-title {
+        font-size: $h3;
+    }
+
 }

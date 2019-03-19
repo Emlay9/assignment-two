@@ -5,9 +5,16 @@ $offwhite: #FDFFFC;
 $grey: #a6aeb4;
 
 /*** Styles ***/
-
 .site-nav {
+    text-align: center;
+    max-width: 1200px;
     padding: 0.7rem 1rem;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 101;
+    background: $dark;
 }
 
 .menu-panel {
@@ -16,8 +23,7 @@ $grey: #a6aeb4;
     width: 100%;
     top: -20rem;
     left: 0;
-    padding: 2rem 0;
-    background-color: black;
+    padding: 1rem;
     z-index: 5;
   }
 
@@ -37,12 +43,13 @@ $grey: #a6aeb4;
         text-align: center;
     }
 }
-
-@media(min-width:480px)
+    
+@media(min-width:780px)
 {
     .list-view{
         display: flex;
         justify-content: space-around;
+        
     }
 
     .icon-view{

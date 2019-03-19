@@ -1,9 +1,10 @@
 
 .find-me-section {
-    padding: 20px;
+    padding: 0 20px 20px;
 
     .social-icons {
         margin-top: 1rem;
+        max-width: 440px;
     }
 
     .fa-github {
@@ -13,4 +14,15 @@
     .fa-github, .fa-linkedin-in {
         width: 65px;
     }
+}
+
+@media(min-width: 480px) {
+
+    .find-me-secton {
+        .social-icons {
+        justify-content: center;
+    }
+
+    }
+    
 }

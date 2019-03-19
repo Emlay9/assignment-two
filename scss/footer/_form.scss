@@ -5,7 +5,9 @@ $darkgrey: #424949;
 $yellow: #FDD835;
 
 //styles
-form {
+.contact-form {
+
+    max-width: 440px;
 
     textarea:focus, input:focus{
         outline: none;
@@ -31,6 +33,7 @@ form {
         border: 1px solid $darkgrey;
         padding: 4px 5px;
         margin-bottom: 1rem;
+        // max-width: 440px ;
     }
     
     .contact-button {
