@@ -8,8 +8,11 @@
 $dark: #100e17;
 $offwhite: #FDFFFC;
 $purple: #5E35B1;
+$dark-purple: #341D61;
 $grey: #a6aeb4;
+$dark-grey: #2E3032;
 $yellow: #FDD835;
+$dark-yellow: #8B761D;
 
 
 /*** Styles ***/
@@ -17,8 +20,28 @@ $yellow: #FDD835;
     color: $grey;
 }
 
+.dark-grey {
+    color: $dark-grey;
+}
+
+.dark-yellow {
+    color: $dark-yellow;
+}
+
+.yellow {
+    color: $yellow;
+}
+
 .light {
     color: $offwhite;
+}
+
+.bg-dark {
+    background: $dark;
+}
+
+.bg-dark-purple {
+    background-color: $dark-purple;
 }
 
 .bg-grey {

@@ -12,10 +12,10 @@
   </head>
 
   <body>
-   <div class="bkg-dark">
+   <div class="bg-dark">
       <nav class="site-nav">
         <ul class="icon-view">
-          <li><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg></li>
+          <li id="mobile-menu-button"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg></li>
           <div class="container fnt-sm-1">
             <li>emilylthomas9@gmail.com</li>
             <li class="phone-number">587 599 9832</li>
@@ -29,13 +29,23 @@
           <li>nav-element</li>
         </ul>
       </nav>
+      <aside id="menu-panel" class="menu-panel">
+          <ul class="mobile-links">
+            <li class="mobile-link"><a href="#summary">skills summary</a> </li>
+            <li class="mobile-link"><a href="#find-me">find me</a> </li>
+            <li class="mobile-link"><a href="#education">education</a> </li>
+            <li class="mobile-link"><a href="#work">work experience</a> </li>
+            <li class="mobile-link"><a href="#contact">contact</a> </li>
+            <li class="mobile-link"><a href="#facts">fun facts</a> </li>
+          </ul>
+        </aside>
       <header class="main-header">
         <ul class="header-items">
           <li><img class="emily-avatar" src="img/temp-avatar.gif" alt="photo of Emily"></li>
           <li><h1 class="header-title">emily tHomas</h1></li>
           <li><h2 class="job-title fnt-sm-1">Software Developer</h2></li>
           <div class="container cta-flx-center">
-            <li class="contact"><a class="cta cta-1" href="#contact">Contact me</a></li>
+            <li class="contact"><a class="cta cta-1" href="#Name">Contact me</a></li>
             <li><a class="cta cta-2" href="https://github.com/Emlay9">Github</a></li>
           </div>
           <li>
@@ -58,7 +68,7 @@
         <img class="percent" src="img/percentages-85.svg" alt="95 precent">
         <img class="percent" src="img/percentages-75.svg" alt="95 precent">
     </section>
-    <section class="find-me-section bkg-dark">
+    <section class="find-me-section bg-dark">
       <div class="center-align-txt">
         <h2 class="section-title light find-me">Where To Find Me</h2>
         <div class="line center-align-blk"></div>
@@ -76,71 +86,72 @@
         </div>
       </div>
     </section>
-    <section class="work-experience-section">
+    <section class="dark-grey work-experience-section">
         <div class="center-align-txt"><h2 class="section-title">Work Experience</h2></div>
         <div class="line center-align-blk"></div>
         <ul class="bubble-one bg-yellow">
-          <li class="inline-block"><h3 >Full-stack Web Developer </h3></li>
+          <li class="inline-block"><h3 class="fnt-h5 bold">Full-stack Web Developer </h3></li>
           <li class="inline-block">@Granify Inc.</li>
           <li class="date">MAY 2021 - CURRENT</li>
           <li>Design and maintain responsive web applications.</li>
         </ul>
-        <ul class="bubble-two bg-grey">
-          <li class="inline-block"><h3 >.NET Software Developer</h3></li>
+        <ul class="light bubble-two bg-grey">
+          <li class="inline-block"><h3 class="fnt-h5 bold">.NET Software Developer</h3></li>
           <li class="inline-block">@F12.net</li>
           <li class="date">MAY 2020 - APRIL 2021</li>
           <li>IT Support and developped plugins for existing software using .NET Framework.</li>
         </ul>
-        <ul class="bubble-three bg-yellow">
-          <li class="inline-block"><h3 >Co-op Junior Web Developer</h3></li>
-          <li class="inline-block">@Granify Inc.</li>
-          <li class="date">JAN 2021-CURRENT</li>
+        <ul class="dark-grey bubble-three bg-yellow">
+          <li class="inline-block"><h3 class="fnt-h5 bold">Co-op Junior Web Developer</h3></li>
+          <li class="inline-block">@Eluta</li>
+          <li class="date">JAN 2021 - CURRENT</li>
           <li>Enhanced and maintained website, implemented SQL databases.</li>
         </ul>
-        <ul class="bubble-four bg-grey">
-            <li class="inline-block"><h3 >Developed a website for Canadian Volunteers for International Development Society</h3></li>
+        <ul class="light bubble-four bg-grey">
+            <li class="inline-block"><h3 class="fnt-h5 bold">Developed a website for Canadian Volunteers for International Development Society</h3></li>
             <li class="inline-block">@CVIDS</li>
             <li class="date">MARCH - APRIL 2019</li>
             <li>Designed and coded modern responsive website with a CMS for the client using WordPress.</li>
           </ul>
     </section>
-    <section class="education-section bkg-dark">
+    <section class="education-section bg-dark light">
         <div class="center-align-txt"><h2 class="section-title light">Education</h2></div>
         <div class="line center-align-blk"></div>
-        <ul class="education-block">
-          <li><h3>Proffesional Certificate in Machine Learning & Artificial Intelligence</h3></li>
-          <li>SEPT 2020 - APRIL 2021</li>
-          <li><a href="https://professional.mit.edu/">professional.mit.edu/</a></li>
-          <li>MIT</li>
-          <li>Able to apply cutting-edge, industry relevant knowledge in machine learning and AI</li>
+        <ul class="education-block bg-dark-purple center-align-blk">
+          <li><h3 class="fnt-h5">Proffesional Certificate in Machine Learning & Artificial Intelligence</h3></li>
+          <li class="yellow">SEPT 2020 - APRIL 2021</li>
+          <li><a class="grey fnt-sm-1" href="https://professional.mit.edu/">professional.mit.edu</a></li>
+          <li class="grey">MIT</li>
+          <li class="education-info">Able to apply cutting-edge, industry relevant knowledge in machine learning and AI</li>
         </ul>
-        <ul class="education-block">
-          <li><h3>Proffesional Certificate in Machine Learning & Artificial Intelligence</h3></li>
-          <li>SEPT 2020 - APRIL 2021</li>
-          <li><a href="https://professional.mit.edu/">professional.mit.edu/</a></li>
-          <li>MIT</li>
-          <li>Able to apply cutting-edge, industry relevant knowledge in machine learning and AI</li>
+        <ul class="education-block bg-dark-purple center-align-blk">
+          <li><h3 class="fnt-h5">Microsoft MTA certification</h3></li>
+          <li class="yellow">FEB 2020 - MARCH 2020</li>
+          <li><a class="grey fnt-sm-1" href="https://www.microsoft.com/en-us/learning/mta-certification.aspx">www.microsoft.com/learning/mta-certification.aspx</a></li>
+          <li class="grey">Microsoft</li>
+          <li class="education-info">software development certificate</li>
         </ul>
-        <ul class="education-block">
-          <li><h3>Diploma Software Development</h3></li>
-          <li>SEPT 2018 - APRIL 2020</li>
-          <li><a href="https://professional.mit.edu/">professional.mit.edu/</a></li>
-          <li>MIT</li>
-          <li>Able to apply cutting-edge, industry relevant knowledge in machine learning and AI</li>
+        <ul class="education-block bg-dark-purple center-align-blk">
+          <li><h3 class="fnt-h5">Diploma Software Development</h3></li>
+          <li class="yellow">SEPT 2018 - APRIL 2020</li>
+          <li><a class="grey fnt-sm-1" href="http://www.nait.ca/">www.nait.ca</a></li>
+          <li class="grey">Digital Media & IT</li>
+          <li class="grey">Northern Alberta Institute of Technology</li>
+          <li class="education-info">Learned to design and implement scalapble application solutions, including development, testing, documentation, deployment and support.</li>
         </ul>
-        <ul class="education-block">
-          <li><h3>Harry Ainlay High School</h3></li>
-          <li>SEPT 2012 - JUNE 2015</li>
-          <li><a href="https://professional.mit.edu/">professional.mit.edu/</a></li>
-          <li>MIT</li>
-          <li>Able to apply cutting-edge, industry relevant knowledge in machine learning and AI</li>
+        <ul class="education-block bg-dark-purple center-align-blk">
+          <li><h3 class="fnt-h5">Harry Ainlay High School</h3></li>
+          <li class="yellow">SEPT 2012 - JUNE 2015</li>
+          <li><a class="grey fnt-sm-1" href="http://harryainlay.epsb.ca/">harryainlay.epsb.ca</a></li>
+          <li class="grey">Edmonton</li>
+          <li class="education-info">Honours with distinction, french immersion diploma</li>
         </ul>
     </section>
   </main>
     <footer class="main-footer">
         <div class="center-align-txt"><h2 class="section-title">Get In Touch</h2></div>
         <div class="line center-align-blk"></div>
-        <a name="contact"></a>
+        <!-- <a name="contact"></a> -->
         <form action="">
          <div class="flex-column">
             <label class="small-label fnt-sm-2" for="Name">Name*</label>
@@ -162,5 +173,8 @@
           <li class="phone-number fnt-sm-2">587 599 9832</li>
         </ul>
     </footer>
+
+    <script async src="js/TweenMax.min.js"></script>
+    <script async src="js/index.js"></script>
   </body>
 </html>

@@ -1,19 +1,25 @@
 
 /*** Variables ***/
 $dark: #100e17;
-$brightred: #F71735;
-$sunsetorange: #FF5A5F;
-$teal: rgb(58, 202, 183);
 $offwhite: #FDFFFC;
-$redviolet: #B91372;
 $grey: #a6aeb4;
 
 /*** Styles ***/
 
 .site-nav {
-    padding: 0.5rem 1rem;
-    background: $dark;
+    padding: 0.7rem 1rem;
 }
+
+.menu-panel {
+    position: fixed;
+    display: block;
+    width: 100%;
+    top: -20rem;
+    left: 0;
+    padding: 2rem 0;
+    background-color: black;
+    z-index: 5;
+  }
 
 .list-view {
     display: none;

@@ -13,7 +13,7 @@ $h1: 7.594em;
 $h2: 5.063em;
 $h3: 3.375em;
 $h4: 2.25em;
-$h5: 1.5em;
+$h5: 1.2em;
 
 $s1: 0.875rem;
 $s2: 0.75rem;
@@ -42,6 +42,10 @@ body {
     font-weight: 400;
 }
 
+.fnt-h5 {
+    font-size: $h5;
+}
+
 .fnt-sm-1 {
     font-size: $s1;
 }
@@ -52,4 +56,8 @@ body {
 
 .fnt-sm-3 {
     font-size: $s3;
+}
+
+.bold {
+    font-weight: bold;
 }

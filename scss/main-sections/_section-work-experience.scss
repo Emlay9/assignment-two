@@ -7,6 +7,10 @@ $grey: #a6aeb4;
 
     padding-top: 20px;
 
+    .date {
+        margin-bottom: 0.2rem;
+    }
+
     .bubble-one, .bubble-three {
         border-radius: .4em;
         padding: 1.5rem 1rem;
@@ -14,6 +18,7 @@ $grey: #a6aeb4;
         width: 70%;
         margin-left: 10%;
         margin-bottom: 1.5rem;
+        color: #7d7f81;
     }
     
     .bubble-one:after, .bubble-three:after {

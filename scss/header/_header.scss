@@ -9,14 +9,15 @@ $dark-yellow: #8B761D;
 
 
 /*** Styles ***/
-.bkg-dark {
-        background: $dark;
-    }
 
 .main-header
 {
 
-    padding-bottom: 0.5rem;
+    .header-title {
+        margin-bottom: 0.2rem;
+    }
+
+    padding-bottom: 1rem;
     
     a {
         color: $offwhite;
@@ -70,7 +71,7 @@ $dark-yellow: #8B761D;
     }
 
     .container {
-        margin-top: 20px;
+        margin-top: 1.8rem;
     }
 }
 

@@ -6,6 +6,11 @@ $yellow: #FDD835;
 
 //styles
 form {
+
+    textarea:focus, input:focus{
+        outline: none;
+    }
+
     .small-label {
         margin-left: 7%;
         margin-bottom: 0.4rem;
