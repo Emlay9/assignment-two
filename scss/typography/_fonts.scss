@@ -27,7 +27,7 @@ body {
     font-family: $raleway;
 }
 
-.section-title {
+.section-title, .section-title-form {
     font-size: $h4;
 }
 
@@ -80,7 +80,7 @@ body {
         font-size: $h2;
     }
 
-    .section-title {
+    .section-title, .section-title-form {
         font-size: $h3;
     }
 
