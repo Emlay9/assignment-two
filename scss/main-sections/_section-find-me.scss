@@ -3,7 +3,7 @@
     padding: 0 20px 20px;
 
     .social-icons {
-        margin-top: 1rem;
+        margin-top: 2.5rem;
         max-width: 440px;
     }
 
@@ -18,11 +18,7 @@
 
 @media(min-width: 480px) {
 
-    .find-me-secton {
-        .social-icons {
-        justify-content: center;
+    .find-me-content {
+        padding: 0 15%;   
     }
-
-    }
-    
 }

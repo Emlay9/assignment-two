@@ -18,6 +18,10 @@
 {
    .skills-section {
 
+    .section-title {
+        margin-bottom: 0;
+    }
+
         .skills-container {
             display: grid;
             grid-template-columns: auto auto;

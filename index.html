@@ -22,11 +22,11 @@
           </div>
         </ul>
         <ul class="list-view">
-          <li>Skills Summary</li>
-          <li>Find me</li>
-          <li>Work Experience</li>
-          <li>Education</li>
-          <li>Contact Me</li>
+          <li><a class="nav-item grey" href="#summary">Skills Summary</a></li>
+          <li><a class="nav-item grey" href="#find-me">Find me</a></li>
+          <li><a class="nav-item grey" href="#work">Work Experience</a></li>
+          <li><a class="nav-item grey" href="#education">Education</a></li>
+          <li><a class="contact-lnk-btn light bg-purple" href="#contact">Contact Me</a></li>
         </ul>
       </nav>
       <aside id="menu-panel" class="menu-panel bg-dark">
@@ -83,7 +83,7 @@
         </div>
     </section>
     <section class="find-me-section bg-dark" id="find-me">
-      <div class="center-align-txt">
+      <div class="center-align-txt find-me-content">
         <h2 class="section-title light find-me">Where To Find Me</h2>
         <div class="line center-align-blk"></div>
         <p class="light">Passionate Junior Software Developer writing quality code. My goal is to innovate, inspire and create awesome products for clients. Go check out some of my stuff.</strong></p>
@@ -104,49 +104,77 @@
     <section class="dark-grey work-experience-section bg-white" id="work">
         <div class="center-align-txt"><h2 class="section-title">Work Experience</h2></div>
         <div class="line center-align-blk"></div>
-        <ul class="bubble-one bg-yellow">
-          <li class="inline-block"><h3 class="fnt-h5 bold">Full-stack Web Developer </h3></li>
-          <li class="inline-block">@Granify Inc.</li>
-          <li class="date">MAY 2021 - CURRENT</li>
-          <li>Design and maintain responsive web applications.</li>
-        </ul>
-        <ul class="light bubble-two bg-grey">
-          <li class="inline-block"><h3 class="fnt-h5 bold">.NET Software Developer</h3></li>
-          <li class="inline-block">@F12.net</li>
-          <li class="date">MAY 2020 - APRIL 2021</li>
-          <li>IT Support and developped plugins for existing software using .NET Framework.</li>
-        </ul>
-        <ul class="dark-grey bubble-three bg-yellow">
-          <li class="inline-block"><h3 class="fnt-h5 bold">Co-op Junior Web Developer</h3></li>
-          <li class="inline-block">@Eluta</li>
-          <li class="date">JAN 2021 - CURRENT</li>
-          <li>Enhanced and maintained website, implemented SQL databases.</li>
-        </ul>
-        <ul class="light bubble-four bg-grey">
-            <li class="inline-block"><h3 class="fnt-h5 bold">Developed a website for Canadian Volunteers for International Development Society</h3></li>
-            <li class="inline-block">@CVIDS</li>
-            <li class="date">MARCH - APRIL 2019</li>
-            <li>Designed and coded modern responsive website with a CMS for the client using WordPress.</li>
+        <div class="bubble-container-sm center-align-blk">
+          <ul class="bubble-one bg-yellow">
+            <li class="inline-block"><h3 class="fnt-h5 bold">Full-stack Web Developer </h3></li>
+            <li class="inline-block">@Granify Inc.</li>
+            <li class="date">MAY 2021 - CURRENT</li>
+            <li>Design and maintain responsive web applications.</li>
           </ul>
+          <ul class="light bubble-two bg-grey">
+            <li class="inline-block"><h3 class="fnt-h5 bold">.NET Software Developer</h3></li>
+            <li class="inline-block">@F12.net</li>
+            <li class="date">MAY 2020 - APRIL 2021</li>
+            <li>IT Support and developped plugins for existing software using .NET Framework.</li>
+          </ul>
+          <ul class="dark-grey bubble-three bg-yellow">
+            <li class="inline-block"><h3 class="fnt-h5 bold">Co-op Junior Web Developer</h3></li>
+            <li class="inline-block">@Eluta</li>
+            <li class="date">JAN 2021 - CURRENT</li>
+            <li>Enhanced and maintained website, implemented SQL databases.</li>
+          </ul>
+          <ul class="light bubble-four bg-grey">
+              <li class="inline-block"><h3 class="fnt-h5 bold">Developed a website for Canadian Volunteers for International Development Society</h3></li>
+              <li class="inline-block">@CVIDS</li>
+              <li class="date">MARCH - APRIL 2019</li>
+              <li>Designed and coded modern responsive website with a CMS for the client using WordPress.</li>
+          </ul>
+        </div>
+        <div class="bubble-container-bg center-align-blk">
+          <ul class="bubble-one-bg bg-yellow">
+            <li class="inline-block"><h3 class="fnt-h5 bold">Full-stack Web Developer </h3></li>
+            <li class="inline-block">@Granify Inc.</li>
+            <li class="date">MAY 2021 - CURRENT</li>
+            <li>Design and maintain responsive web applications.</li>
+          </ul>
+          <ul class="light bubble-two-bg bg-grey">
+            <li class="inline-block"><h3 class="fnt-h5 bold">.NET Software Developer</h3></li>
+            <li class="inline-block">@F12.net</li>
+            <li class="date">MAY 2020 - APRIL 2021</li>
+            <li>IT Support and developped plugins for existing software using .NET Framework.</li>
+          </ul>
+          <ul class="dark-grey bubble-three-bg bg-yellow">
+            <li class="inline-block"><h3 class="fnt-h5 bold">Co-op Junior Web Developer</h3></li>
+            <li class="inline-block">@Eluta</li>
+            <li class="date">JAN 2021 - CURRENT</li>
+            <li>Enhanced and maintained website, implemented SQL databases.</li>
+          </ul>
+          <ul class="light bubble-four-bg bg-grey">
+              <li class="inline-block"><h3 class="fnt-h5 bold">Developed a website for Canadian Volunteers for International Development Society</h3></li>
+              <li class="inline-block">@CVIDS</li>
+              <li class="date">MARCH - APRIL 2019</li>
+              <li>Designed and coded modern responsive website with a CMS for the client using WordPress.</li>
+          </ul>
+        </div>
     </section>
     <section class="education-section bg-dark light" id="education">
         <div class="center-align-txt"><h2 class="section-title light">Education</h2></div>
         <div class="line center-align-blk"></div>
-        <ul class="education-block bg-dark-purple center-align-blk">
+        <ul class="education-block edu-blk-left bg-dark-purple center-align-blk">
           <li><h3 class="fnt-h5">Proffesional Certificate in Machine Learning & Artificial Intelligence</h3></li>
           <li class="yellow">SEPT 2020 - APRIL 2021</li>
           <li><a class="grey fnt-sm-1" href="https://professional.mit.edu/">professional.mit.edu</a></li>
           <li class="grey">MIT</li>
           <li class="education-info">Able to apply cutting-edge, industry relevant knowledge in machine learning and AI</li>
         </ul>
-        <ul class="education-block bg-dark-purple center-align-blk">
+        <ul class="education-block edu-blk-right bg-dark-purple center-align-blk">
           <li><h3 class="fnt-h5">Microsoft MTA certification</h3></li>
           <li class="yellow">FEB 2020 - MARCH 2020</li>
           <li><a class="grey fnt-sm-1" href="https://www.microsoft.com/en-us/learning/mta-certification.aspx">www.microsoft.com/learning/mta-certification.aspx</a></li>
           <li class="grey">Microsoft</li>
           <li class="education-info">software development certificate</li>
         </ul>
-        <ul class="education-block bg-dark-purple center-align-blk">
+        <ul class="education-block edu-blk-left bg-dark-purple center-align-blk">
           <li><h3 class="fnt-h5">Diploma Software Development</h3></li>
           <li class="yellow">SEPT 2018 - APRIL 2020</li>
           <li><a class="grey fnt-sm-1" href="http://www.nait.ca/">www.nait.ca</a></li>
@@ -154,7 +182,7 @@
           <li class="grey">Northern Alberta Institute of Technology</li>
           <li class="education-info">Learned to design and implement scalapble application solutions, including development, testing, documentation, deployment and support.</li>
         </ul>
-        <ul class="education-block bg-dark-purple center-align-blk">
+        <ul class="education-block edu-blk-right bg-dark-purple center-align-blk">
           <li><h3 class="fnt-h5">Harry Ainlay High School</h3></li>
           <li class="yellow">SEPT 2012 - JUNE 2015</li>
           <li><a class="grey fnt-sm-1" href="http://harryainlay.epsb.ca/">harryainlay.epsb.ca</a></li>
@@ -165,7 +193,7 @@
   </main>
     <footer class="main-footer bg-white">
         <div class="center-align-txt"><h2 class="section-title">Get In Touch</h2></div>
-        <div class="line center-align-blk"></div>
+        <div class="form-line center-align-blk"></div>
         <form class="contact-form center-align-blk" action="" id="contact">
          <div class="flex-column">
             <label class="small-label fnt-sm-2" for="Name">Name*</label>

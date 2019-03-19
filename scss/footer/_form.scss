@@ -24,6 +24,7 @@ $yellow: #FDD835;
 
     .message {
         height: 8.125rem;
+        max-height: 300px;
     }
 
     .contact-input {
@@ -33,7 +34,6 @@ $yellow: #FDD835;
         border: 1px solid $darkgrey;
         padding: 4px 5px;
         margin-bottom: 1rem;
-        // max-width: 440px ;
     }
     
     .contact-button {

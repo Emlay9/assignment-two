@@ -65,7 +65,22 @@ a:hover {
     margin-bottom: 30px;
 }
 
+.form-line {
+    height: 2px;
+    width: 90px;
+    background-color: $purple;
+    margin-bottom: 30px;
+}
+
 .section-title {
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 5px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 64px;
+ }
+
+ .section-title-form {
     font-family: 'Montserrat', sans-serif;
     padding-bottom: 5px;
     display: inline-block;
@@ -89,6 +104,10 @@ a:hover {
         justify-content: center;
     }
 
+    .section-title {
+        margin-bottom: 1.3rem;
+    }
+
     .line {
         display: none;
     }
@@ -100,6 +119,7 @@ a:hover {
         left: 50%;
         transform: translate(-50%, 0);
     }
+
 }
 
 

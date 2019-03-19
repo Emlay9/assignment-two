@@ -3,6 +3,7 @@
 $dark: #100e17;
 $offwhite: #FDFFFC;
 $grey: #a6aeb4;
+$purple: #5E35B1;
 
 /*** Styles ***/
 .site-nav {
@@ -46,10 +47,33 @@ $grey: #a6aeb4;
     
 @media(min-width:780px)
 {
+    .site-nav {
+        background-color: #100e17c4;
+    }
+
     .list-view{
         display: flex;
         justify-content: space-around;
+        align-items: center;
         
+
+        .contact-lnk-btn {
+            display: inline-block;
+            padding: 0.5rem 0;
+            border-radius: 4px;
+            width: 117px;
+            height: 40px;
+        }
+
+        .contact-lnk-btn:hover {
+            background-color: transparent;
+            border: 2px solid $purple;
+            color: $offwhite;
+        }
+        
+        .nav-item:hover {
+            color: $offwhite;
+       }
     }
 
     .icon-view{
